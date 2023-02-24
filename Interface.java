@@ -1,4 +1,4 @@
-package init;
+package FinalWorkJava;
 
 import java.util.*;
 
