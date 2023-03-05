@@ -72,6 +72,4 @@ public class Laptop {
         return String.format("бренд: %s\nдиагональ: %s\nцвет: %s\nОЗУ: %d\nЖД: %s\nОС: %s\nцена: %d\n", 
         brand, screenDiagonal, color, ram, hardDisk, operatingSystem, price);
     }
-    
-    
 }

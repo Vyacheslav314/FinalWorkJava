@@ -2,12 +2,12 @@ package FinalWorkJava;
 
 import java.util.*;
 
-public class Interface {
+public class Interface extends CreateLaptop {
 
     public static Scanner scan = new Scanner(System.in);
 
     public static void userInterface() {
-        List<Laptop> listLaptops = CreateLaptop.intLaptop();
+        CreateLaptop listLaptops = new CreateLaptop();
         Map<Integer, String> filterСriteria = new HashMap<>();
 
         while (true) {
